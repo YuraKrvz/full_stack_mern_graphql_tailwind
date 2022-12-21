@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4;
+  }
+  body {
+    background-color: #e4ebf5;
+  }
+}
+
+.neo-m-text,
+.neo-m-text-simple {
+  color: #9baacf;
+}
+.neo-m-text:hover {
+  color: #6d5dfc;
+}
+.neo-m-text-primary {
+  color: #6d5dfc;
+}
+.neo-m-bg-border {
+  background-color: #e4ebf5;
+  box-shadow: 0.8rem 0.8rem 1.4rem #c8d0e7, -0.2rem -0.2rem 1.8rem #ffffff;
+}
+.neo-m-btn-primary {
+  color: #ffffff;
+  background-color: #6d5dfc;
+}
+.neo-m-btn-primary:hover {
+  box-shadow: inset 0.2rem 0.2rem 1rem #8abdff, inset -0.2rem -0.2rem 1rem #5b0eeb,
+    0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+}
+.neo-m-input {
+  border: none;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #ffffff;
+  background: none;
+  color: #9baacf;
+}
+.neo-m-input::placeholder {
+  color: #bec8e4;
+}
+.neo-m-input:focus {
+  outline: none;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+}
+.active {
+  color: #6d5dfc;
+}
+.active.neo-m-btn-primary {
+  color: #ffffff;
+}
